@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(27, 27, 29), rgb(51, 50, 51));
+}
+.wrapper {
+  display: grid;
+  place-items: center;
+  padding: 3em;
+  margin: 1em;
+}
+.calculator {
+  box-shadow: 1px 1px 30px #000;
+  background: #1c1c1c;
+  padding: 2%;
+  border-radius: 2%;
+}
+.gamboge {
+  background-color: #ff9500 !important;
+}
+.pDel {
+  padding: 0.79em .7em !important;
+  font-size: 1px;
+}
+.pClear {
+  padding: 0.8em 1.1em !important;
+  font-size: 3px;
+}
+.pPerc{
+  padding: 0.8em 1.1em !important;
+  font-size: 3px;
+}
+.pDot{
+  padding: 1em 1.4em !important;
+  font-size: 3px;
+}
+.double {
+  width: 87%;
+  border-radius: 39px !important ;
+  padding: 0.8em !important;
+}
+.btn {
+  padding: 1em 1.2em;
+  color: white;
+  background-color: #505050;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin: 0.3em;
+}
+.btn:hover{
+    transform:scale(1.1);
+    background-color: #505050;
+}
+.lightGrey {
+  background-color: #d4d4d2;
+  color: black;
+}
+#displayScreen {
+  text-align: right;
+  color: white;
+  font-size: 2rem;
+  padding: 1em;
+}
+   

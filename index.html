@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calc.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div> 
+      <div class="wrapper"> 
+        <div class="calculator">
+          <div id="displayScreen"></div>
+          <div class="container">
+            <table>
+              <tr>
+                <td><button class="btn lightGrey pClear" onclick="btnClick('c')">C</button></td>
+                <td><button class="btn lightGrey pDel" onclick="btnClick('del')">Del</button></td>
+                <td><button class="btn lightGrey pPerc" onclick="btnClick('%')">%</button></td>
+                <td><button class="btn gamboge" onclick="btnClick('/')">&divide;</button></td>
+              </tr>
+              <tr>
+                <td><button class="btn" onclick="btnClick(7)">7</button></td>
+                <td><button class="btn" onclick="btnClick(8)">8</button></td>
+                <td><button class="btn" onclick="btnClick(9)">9</button></td>
+                <td><button class="btn gamboge" onclick="btnClick('*')">&times;</button></td>
+              </tr>
+              <tr>
+                <td><button class="btn" onclick="btnClick(4)">4</button></td>
+                <td><button class="btn" onclick="btnClick(5)">5</button></td>
+                <td><button class="btn" onclick="btnClick(6)">6</button></td>
+                <td><button class="btn gamboge" onclick="btnClick('-')">&minus;</button></td>
+              </tr>
+              <tr>
+                <td><button class="btn" onclick="btnClick(1)">1</button></td>
+                <td><button class="btn" onclick="btnClick(2)">2</button></td>
+                <td><button class="btn" onclick="btnClick(3)">3</button></td>
+                <td><button class="btn gamboge" onclick="btnClick('+')">+</button></td>
+              </tr>
+              <tr>
+                <td colspan="2"><button class="btn double" onclick="btnClick(0)">0</button></td>
+                <td><button class="btn pDot" onclick="btnClick('.')">.</button></td>
+                <td><button class="btn" onclick="btnClick('=')">&equals;</button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
